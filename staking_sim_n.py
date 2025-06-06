@@ -1,15 +1,3 @@
-# staking_sim.py  ──────────────────────────────────────────────────────────
-# Streamlit staking-economics simulator
-#   • 100 M cap, 3 330 000 tokens/month emission
-#   • Bear / Base / Bull APY targets
-#   • Per-slot rent split (80 % validators, 20 % DAO)
-#   • All accounting fixes:
-#       – tokens restaked exactly once
-#       – no supply drop on slashing / guardian sells
-#       – DAO burn limited to liquid – staked
-#       – dynamic stake-per-slot every month
-# -------------------------------------------------------------------------
-
 import numpy as np
 import pandas as pd
 import streamlit as st
